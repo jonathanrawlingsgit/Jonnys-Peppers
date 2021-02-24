@@ -1,9 +1,9 @@
 :root {
   --mainBlue: #2a2a72;
   --lightBlue: #009ffd;
-  --mainWhite: #f3f3f3;
+  --mainWhite: rgba(255, 255, 255, 0.705);
   --mainDark: #232323;
-  --mainDark: #ffa400;
+  --mainYellow: #ffa400;
 }
 body {
   font-family: "Fjalla One", sans-serif !important;
@@ -11,7 +11,7 @@ body {
   color: var(--mainDark) !important;
 
 }
-.tet-title {
+.text-title {
   font-family: "Fjalla One", cursive;
   letter-spacing: 0.3rem;
   text-transform: uppercase;
@@ -19,4 +19,7 @@ body {
 .text-blue {
   color: var(--mainBlue);
   
+}
+.text-bright {
+  color: var(--lightBlue);
 }
