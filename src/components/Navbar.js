@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import {Link} from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import {GiPalmTree} from 'react-icons/gi'
 import {FaShoppingCart} from 'react-icons/fa'
 import styled from 'styled-components';
@@ -24,7 +24,7 @@ export default class Navbar extends Component {
                     <Link to="/cart" className="ml-auto">
                         <ButtonContainer>
                             <span className="mr-2">
-                                <FaShoppingCart />
+                                <FaShoppingCart className="fas fa-cart-plus" />
                             </span>
                             
                             My Cart

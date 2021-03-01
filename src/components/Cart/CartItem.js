@@ -1,5 +1,5 @@
 import React from 'react'
-// import {FaTrashAlt} from 'react-icons/fa'
+import {FaTrashAlt} from 'react-icons/fa'
 
 export default function CartItem({ item, value }) {
     const { id, title, img, price, total, count} = item;
@@ -43,7 +43,7 @@ export default function CartItem({ item, value }) {
         <div className="col-10 mx-auto col-lg-2">
             <div className="cart-icon" 
             onClick={() => removeItem(id)}>
-            <i className="fas fa trash" /> 
+            <FaTrashAlt className="fas fa trash" /> 
         </div>
         </div>
         <div className="col-10 mx-auto col-lg-2">
