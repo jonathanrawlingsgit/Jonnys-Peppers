@@ -26,8 +26,7 @@ export default class Modal extends Component {
                                     id="modal" 
                                     className="col-8 mx-auto col-md-6 col-lg-4 text-center text-capitalize p-5">
                                         <h5>Item Added to Cart</h5>
-                                        <img src={img} className="img-fluid" alt="product"
-                                        alt="product" />
+                                        <img src={img} className="img-fluid" alt="product" />
                                         <h5>{title}</h5>
                                         <h5 className="text-muted">Price: $ {price}</h5>
                                         <Link to='/'>
@@ -61,7 +60,7 @@ background: rgba(0,0,0,0.3);
 display: flex;
 align-items: center;
 justify-content: center;
-#modal{
+#modal {
     background:var(--mainWhite);
 }
 
