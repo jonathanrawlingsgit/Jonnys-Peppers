@@ -1,42 +1,71 @@
-:root {
-  --mainBlue: #2a2a72;
-  --lightBlue: #009ffd;
-  --mainWhite: rgba(255, 255, 255, 0.705);
-  --mainDark: #232323;
-  --mainYellow: #ffa400;
-}
+@import url('https://fonts.googleapis.com/css2?family=Risque&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Spicy+Rice&display=swap');
 body {
-  font-family: "Fjalla One", sans-serif !important;
-  background: var(--mainWhite) !important;
-  color: var(--mainDark) !important;
+  font-family: 'Risque', cursive !important;
+  background: linear-gradient(145deg, #f0f0f0, #cacaca)!important;
+  
 
 }
+.pepper {
+  font-family: 'Risque', cursive;
+  display: flex;
+  font-size: 50px;
+  justify-content: center;
+  color: rgb(255, 255, 255);
+}
+.homepage-container{
+  background: whitesmoke;
+  height: 100vh;
+  width: 100vw;
+ 
+}
+
 .text-title {
-  font-family: "Fjalla One", cursive;
+  font-family: "Risque", cursive;
+  color: rgb(0, 0, 0);
   letter-spacing: 0.3rem;
   text-transform: uppercase;
+  
 }
 .text-blue {
-  color: var(--mainBlue);
+  color: #101010;
   
 }
 .text-bright {
-  color: var(--lightBlue);
+  color: #060606;
 }
 .btn-black {
   background: transparent;
   text-transform: capitalize;
   font-size: 0.8rem !important;
-  color: var(--mainDark);
+  color: rgb(0, 0, 0);
   border-radius: 0 !important;
   border: 0.1rem solid var(--mainDark) !important;
 }
 .btn-black:hover{
-  background: var(--mainDark) !important;
-  color: var(--mainWhite)
+  background: white;
+  color: black;
 }
-cart-icon {
+.cart-icon {
   cursor: pointer;
   font-size: 1.2rem;
-  color: var(--mainYellow);
+  
+}
+
+.pepper-title {
+  font-family: 'Risque', cursive;
+  display: flex;
+  border-radius: 10px;
+
+  display: flex;
+  font-size: 50px;
+  justify-content: center;
+  color: rgb(62, 62, 62);
+}
+
+
+.bottom-footer {
+  height: 200px;
+  width: 100%;
+  background-color: rgb(34, 34, 34);
 }

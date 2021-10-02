@@ -1,33 +1,35 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom';
-import {GiPalmTree} from 'react-icons/gi'
+import {FaPepperHot} from 'react-icons/fa'
 import {FaShoppingCart} from 'react-icons/fa'
 import styled from 'styled-components';
 import {ButtonContainer} from './Button';
 
 
+
 export default class Navbar extends Component {
     render() {
         return (
-            <NavWrapper className="navbar navbar-expand-sm bg-primary navbar-dark px-sm-5">
+            <NavWrapper className="navbar navbar-expand-lg navbar-dark px-sm-5">
                 <Link to='/'>
                     
                 </Link>
-                    <ul className="navbar-nav align-items-center">
+                    <ul className="navbar-nav align-items-right">
                         <li className="nav-item ml-5">
                             <Link to='/' className='nav-link'>
-                            <GiPalmTree alt="store"/>
-                                products
+                            <FaPepperHot class="pepper" alt="store"/>
+   
                             </Link>
+                    
                         </li>
                     </ul>
                     <Link to="/cart" className="ml-auto">
                         <ButtonContainer>
                             <span className="mr-2">
-                                <FaShoppingCart className="fas fa-cart-plus" />
+                                <FaShoppingCart className="cart" />
                             </span>
                             
-                            My Cart
+                            <h5>Cart</h5>
                         </ButtonContainer>
                     </Link>
             </NavWrapper>
@@ -35,11 +37,13 @@ export default class Navbar extends Component {
     }
 }
     const NavWrapper = styled.nav`
-        background: var(--mainBlue);
-        .nav-link{
-            color:var(--mainwhite)!important;
-            font-size:1.3rem;
-            text-transform: capitalize!important
+        width: 100%;
+        border-radius: 0px;
+        background: rgb(48, 48, 48);
+        z-index: 1;
+        position: sticky !important;
+        top: 0;
+        
         }
 `;
 
