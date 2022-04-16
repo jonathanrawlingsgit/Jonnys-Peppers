@@ -38,12 +38,24 @@ export default class Navbar extends Component {
 }
     const NavWrapper = styled.nav`
         width: 100%;
+        display: flex;
+        justify-content: space-between;
         border-radius: 0px;
-        background: rgb(48, 48, 48);
+        background: transparent;
         z-index: 1;
         position: sticky !important;
         top: 0;
         
         }
-`;
+        .pepper {
+            color: #53FEC0;
+            
+            
+        }
+        .pepper:hover {
+            transform: scale(1.4);
+            transition:all 0.8s ease-in-out;
+            color: #FEF753;
+        }
+`
 

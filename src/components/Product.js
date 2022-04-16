@@ -77,29 +77,36 @@ const ProductWrapper = styled.div `
     .card{
        
         transition:all 1s linear;
-        border-radius: 10px;
-background: #e0e0e0;
-box-shadow:  20px 20px 60px #bebebe,
-             -20px -20px 60px #ffffff;
+        border-radius: 2px;
+        background: transparent;
+       
+
         
         
             
     }
     .card-footer #footer{
-       color: black;
+       color: white;
     }
     &:hover{
         .card{
-            border-radius: 10px;
-            background: linear-gradient(145deg, #f0f0f0, #cacaca);
-            box-shadow:  20px 20px 60px #bebebe,
-                         -20px -20px 60px #ffffff;
+            border-radius: 2px;
+            background: transparent;
+            
         }
         
+    }
+    img {
+       
+       
+    
+
     }
     .img-container {
         position: relative;
         overflow: hidden;
+        opacity: 90%;
+        
 
         
     }
@@ -108,6 +115,8 @@ box-shadow:  20px 20px 60px #bebebe,
     }
     .img-container:hover .card-img-top{
         transform: scale(1.2);
+        opacity: 2%;
+       
     }
     .cart-btn {
         position: absolute;
@@ -119,10 +128,12 @@ box-shadow:  20px 20px 60px #bebebe,
         color: white;
         font-size: 1.4rem;
         
+        
         transform:translate(100%, 100%)
     }
     .img-container:hover .cart-btn{
         transform: translate(0, 0);
+        
     }
     .cart-btn:hover {
         color:  orange;

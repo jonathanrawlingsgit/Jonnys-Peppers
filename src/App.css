@@ -1,38 +1,50 @@
 @import url('https://fonts.googleapis.com/css2?family=Risque&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Spicy+Rice&display=swap');
 body {
-  font-family: 'Risque', cursive !important;
-  background: linear-gradient(145deg, #f0f0f0, #cacaca)!important;
+  font-family: 'Roboto' !important;
+  background: #011226!important;
   
 
 }
 .pepper {
-  font-family: 'Risque', cursive;
+  
   display: flex;
   font-size: 50px;
   justify-content: center;
   color: rgb(255, 255, 255);
 }
 .homepage-container{
-  background: whitesmoke;
+  
   height: 100vh;
   width: 100vw;
  
 }
-
+#name-detail-title {
+  color: #53B3FE !important;
+}
+#grown-by{
+  color: #53FEC0 !important;
+}
+#more-info-text {
+  color: whitesmoke !important;
+  opacity: 30%;
+}
+#description-paragraph{
+  color: #B7E0FF !important;
+}
 .text-title {
   font-family: "Risque", cursive;
-  color: rgb(0, 0, 0);
+  color: white;
   letter-spacing: 0.3rem;
   text-transform: uppercase;
   
 }
 .text-blue {
-  color: #101010;
+  color: white;
   
 }
 .text-bright {
-  color: #060606;
+  color: white;
 }
 .btn-black {
   background: transparent;
@@ -53,19 +65,21 @@ body {
 }
 
 .pepper-title {
-  font-family: 'Risque', cursive;
+  
   display: flex;
   border-radius: 10px;
 
   display: flex;
   font-size: 50px;
   justify-content: center;
-  color: rgb(62, 62, 62);
+  color: white;
 }
 
 
 .bottom-footer {
   height: 200px;
   width: 100%;
-  background-color: rgb(34, 34, 34);
+  background-color: #011226;
+  border-top: 1px solid #53B3FE;
+  opacity: 10%;
 }

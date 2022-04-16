@@ -26,8 +26,8 @@ export default class Details extends Component {
                               {/* Product Text */}
                                 <div className="col-10 mx-auto col-md-6 my-3 text-capitalize">
                                     {/* model number goes below on the h2 tag */}
-                                  <h2>{title}</h2>
-                                    <h4 className="text-title text-uppercase text-muted mt-3 mb-2">
+                                  <h2 id="name-detail-title" >{title}</h2>
+                                    <h4 id="grown-by" className="text-title text-uppercase text-muted mt-3 mb-2">
                                          grown by : <span className="text-uppercase">
                                              {company}
                                          </span>
@@ -38,10 +38,10 @@ export default class Details extends Component {
                                              {price}
                                          </strong>
                                      </h4>
-                                        <p className="text-capitalize font-weight-bold mt-3 mb-0">
+                                        <p id="more-info-text" className="text-capitalize font-weight-bold mt-3 mb-0">
                                             some info about product: 
                                         </p>
-                                        <p className="text-muted lead">{info}</p>
+                                        <p id="description-paragraph" className="text-muted lead">{info}</p>
                                         {/* Buttons */}
                                         <div>
                                             <Link to='/'>

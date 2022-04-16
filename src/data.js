@@ -2,7 +2,7 @@ export const storeProducts = [
     {
         id: 1,
         title: "UFO Pepper",
-        img: "img/uap.png",
+        img: "img/bluesquare.svg",
         price: 3.99,
         company: "Jonny's Peppers",
         info: "Purple UFO-(Capsicum annuum)-The Purple UFO pepper is a tasty ornamental type that looks like a type of flying saucer or UFO! The Purple UFO chiles ripen from purple to orange and finally red. They have a nice fruity flavor and a Jalapeno level of heat that comes on fast but fades quickly.",
@@ -13,7 +13,7 @@ export const storeProducts = [
     {
     id: 2,
     title: "Dracula Pepper",
-    img: 'img/drac.png',
+    img: 'img/bluesquare.svg',
     price: 3.99,
     company: "Jonny's Peppers",
     info: "Count Dracula has black leaves and peppers that mature from black to red. This pepper plant grows to up to 24. Adding to the drama are 2 long, black fruits which ripen to blood red. With a rating of 25,000 Scovilles, these very hot peppers definitely have a big bite"
@@ -21,7 +21,7 @@ export const storeProducts = [
     {
         id: 3,
         title: "Sugar Rush Peach",
-        img: 'img/srp.png',
+        img: 'img/bluesquare.svg',
         price: 3.99,
         company: "Jonny's Peppers",
         info: "This is a rare Peach colored Capsicum bacattum variety from Peru that is very sweet. The heat level approaches habanero, but does not quite achieve it. ... It is similar to the Aji Amarillo but much sweeter, which is why it's called Sugar Rush. The Sugar Rush Chili plants will grow over 5 feet tall and will need staking."
@@ -29,7 +29,7 @@ export const storeProducts = [
         {
             id: 4,
             title: "Bulgarian Carrot",
-            img: 'img/bulg.png',
+            img: 'img/bluesquare.svg',
             price: 3.99,
             company: "Jonny's Peppers",
             info: "The Bulgarian Carrot has a crunchy texture with a sweet yet tangy flavor, and they produce a burst of heat. They have a resemblance to the bright orange carrot, with its pointy shape and fluorescent orange skin. The fruity pepper grows to three to four inches tall, with the plant growing to about two feet."
@@ -37,7 +37,7 @@ export const storeProducts = [
             {
                 id: 5,
                 title: "Chinese 5 Color",
-                img: 'img/chinese5.png',
+                img: 'img/bluesquare.svg',
                 price: 3.99,
                 company: "Jonny's Peppers",
                 info: "Chinese 5-color peppers are cone peppers. The plants are upright, branched with rigid, delicate stems and thin green leaves with lovely purple stems and veins. ... Fruit is conical in shape, and starts out purple but as it matures runs the rainbow gamut from cream, yellow, orange and finally red when ripe."
